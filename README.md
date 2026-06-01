@@ -1,5 +1,7 @@
 # Emuuriimu: The Savonian Runic Script of EMUUROM
 
+![Typing Demo](docs/demo.gif)
+
 **Status:** Version 0.1 (Alpha)  
 **Language:** Phonetic Savonian Finnish (Savo Dialect)  
 **Author:** nexiapd  
