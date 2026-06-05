@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Emuuriimu Script Previewer</title>
+    <style>
+        @font-face {
+            font-family: 'Emuuriimu';
+            src: url('font/Emuuriimu.otf') format('opentype'); 
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #0d1117; /* GitHub Dark Mode color */
+            color: #c9d1d9;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+        }
+
+        textarea {
+            width: 100%;
+            height: 100px;
+            background: #161b22;
+            color: white;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 15px;
+            font-size: 18px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+
+        #output {
+            font-family: 'Emuuriimu';
+            width: 100%;
+            min-height: 200px;
+            background: #000;
+            color: #ffffff;
+            border: 2px solid #238636; /* "Emuu" Green border */
+            border-radius: 6px;
+            padding: 20px;
+            font-size: 72px; /* Large for runes */
+            word-wrap: break-word;
+            white-space: pre-wrap;
+            box-sizing: border-box;
+            /* This ensures ligatures/stacking are turned ON */
+            font-feature-settings: "liga" 1, "dlig" 1;
+        }
+
+        h1 { color: #58a6ff; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Emuuriimu Script Previewer</h1>
+        <p>Type phonetically below to see the EmuuRune:</p>
+        
+        <textarea id="input" placeholder="Try typing: mualimma..."></textarea>
+        
+        <div id="output"></div>
+    </div>
+
+    <script>
+        const input = document.getElementById('input');
+        const output = document.getElementById('output');
+        input.addEventListener('input', () => {
+            output.innerText = input.value;
+        });
+    </script>
+</body>
+</html>
