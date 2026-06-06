@@ -2,7 +2,7 @@
 
 All notable changes to the **Emuuriimu** font project will be documented in this file.
 
-## [0.8.0] - 2024-06-06
+## [0.8.0] - 2026-06-07
 ### Added
 - **Better Syllable Parser:** Added logic to identify when a consonant cluster (like `ks`, `mp`, `rt`) needs to be split across two syllables if a vowel follows (e.g., `syök-syy`).
 - **Nasal Assimilation Support:** Added `nt` and `rj` clusters to the logic pool.
@@ -15,7 +15,7 @@ All notable changes to the **Emuuriimu** font project will be documented in this
 
 ---
 
-## [0.1.0] - 2024-06-01
+## [0.1.0] - 2026-06-01
 ### Added
 - Initial release of the rune-based font system.
 - Basic mapping for identified Finnish letters.
