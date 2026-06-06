@@ -3,9 +3,14 @@
 ![Typing Demo](docs/demo.gif)
 
 **Status:** Version 0.1 (Alpha)  
-**Language:** Phonetic Savonian Finnish (Savo Dialect)  
+**Intended Language:** Phonetic Savonian Finnish (Savo Dialect)  
 **Author:** nexiapd  
 **License:** [SIL Open Font License (OFL)](https://scripts.sil.org/OFL)
+
+## Project Links
+*  **[Read the Full Decipherment Analysis (Substack)](https://kirjurj.substack.com/p/deciphering-the-emuurom-script)** — A deep dive into the linguistic logic, the Savo dialect shifts, and poem translations.
+*  **[Interactive Script Previewer (Live)](https://nexiapd.github.io/emuuriimu-font/)** — Try the Mother-Rune in your browser without installing the font.
+*  **[Emuuriimu Searchable Dictionary (LingoCon)](https://lingocon.com/lang/emuuriimu/dictionary)** — Search 50+ deciphered Savo-Finnish terms and contribute new findings.
 
 ## The Discovery
 After a systematic decipherment of the inscriptions in the game *EMUUROM* (developed by Perttu Tuovinen), I have confirmed that the script is not a simple substitution cipher for English. Instead, it is a sophisticated **alphasyllabary** designed to encode the **Savo (Savonian) dialect of Finnish** phonetically.
