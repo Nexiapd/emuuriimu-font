@@ -2,7 +2,7 @@
 
 ![Typing Demo](docs/demo.gif)
 
-**Status:** Version 0.1 (Alpha)  
+**Status:** Version 0.8 (Alpha) | [View Changelog](CHANGELOG.md)  
 **Intended Language:** Phonetic Savonian Finnish (Savo Dialect)  
 **Author:** nexiapd  
 **License:** [SIL Open Font License (OFL)](https://scripts.sil.org/OFL)
@@ -23,16 +23,20 @@ The font is built on a modular grid system.
 - **Ligatures:** Diphthongs and consonant clusters are handled via `liga` features, transforming individual letters into combined, space-efficient glyphs.
 
 ## How to Use
-1. Download the `Emuuriimu.otf` file from the `/font` folder.
+1. Download the `Emuuriimu_v0.8.otf` file from the `/font` folder.
 2. Install it on your system.
 3. Use an OpenType-compatible software (Microsoft Word, Adobe Suite, SIL FieldWorks, etc.).
 4. **Typing:** Type normally in Finnish or Savo. The font's internal logic will automatically assemble the runes into the correct syllable blocks.
 
-## Known Issues (v0.1)
-- **Syllable Boundaries:** Detection of syllable breaks in long, vowel-heavy words is still being refined.
+## Known Issues (v0.8)
 - **Complex Clusters:** Clusters involving more than two consonants may not yet render with perfect ligatures.
 - **Latin Character Set:** Unused Latin letters (B, C, F, etc.) are left untouched and will render in a basic geometric Latin style.
 - **Corpus Limits:** Ligatures currently only account for combinations identified in the current game corpus.
+
+## 🗺️ Roadmap
+- [ ] **Complete Diphthong Combination:** Add all possible Savo diphthong combinations to the `liga` feature.
+- [ ] **High-Resolution Vector Variant:** A non-pixel, smooth-line version of the script for modern UI use.
+- [ ] **Syllable Boundary Refinement:** Refining the "ignore" rules for complex compound words.
 
 ## Contributing
 Feedback, bug reports, and pull requests for the `.fea` (OpenType Feature) logic are highly encouraged! If you find a new inscription in-game that this font doesn't handle, please open an Issue.

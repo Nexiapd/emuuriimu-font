@@ -1,10 +1,10 @@
 SplineFontDB: 3.2
 FontName: Emuuriimu
-FullName: Emuuriimu v0.1
+FullName: Emuuriimu v0.8
 FamilyName: Emuuriimu Pixel
 Weight: Regular
 Copyright: Copyright (c) 2026, nexiapd, with Reserved Font Name "Emuuriimu". Licensed under SIL OFL 1.1.
-Version: 0.1
+Version: 0.8
 ItalicAngle: 0
 UnderlinePosition: 0
 UnderlineWidth: 0
@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1780299522
-ModificationTime: 1780318462
+ModificationTime: 1780773169
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -57,79 +57,102 @@ OS2XHeight: 2048
 OS2Vendor: 'XXXX'
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 00000003.10000000.00000000.00000000
-Lookup: 6 0 0 "'calt' Contextual Alternates in Latin lookup 0" { "'calt' Contextual Alternates in Latin lookup 0 contextual 0"  "'calt' Contextual Alternates in Latin lookup 0 contextual 1"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 1" { "Single Substitution lookup 1 subtable"  } []
+Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 0" { "'liga' Standard Ligatures in Latin lookup 0 subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' Contextual Alternates in Latin lookup 1" { "'calt' Contextual Alternates in Latin lookup 1 contextual 0"  "'calt' Contextual Alternates in Latin lookup 1 contextual 1"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 2" { "Single Substitution lookup 2 subtable"  } []
-Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 3" { "'liga' Standard Ligatures in Latin lookup 3 subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 6 0 0 "'calt' Contextual Alternates in Latin lookup 4" { "'calt' Contextual Alternates in Latin lookup 4 contextual 0"  "'calt' Contextual Alternates in Latin lookup 4 contextual 1"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 5" { "Single Substitution lookup 5 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 6" { "Single Substitution lookup 6 subtable"  } []
-Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 7" { "'liga' Standard Ligatures in Latin lookup 7 subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 6 0 0 "'calt' Contextual Alternates in Latin lookup 8" { "'calt' Contextual Alternates in Latin lookup 8 contextual 0"  "'calt' Contextual Alternates in Latin lookup 8 contextual 1"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 9" { "Single Substitution lookup 9 subtable"  } []
-Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 10" { "'liga' Standard Ligatures in Latin lookup 10 subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 6 0 0 "'calt' Contextual Alternates in Latin lookup 11" { "'calt' Contextual Alternates in Latin lookup 11 contextual 0"  "'calt' Contextual Alternates in Latin lookup 11 contextual 1"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 12" { "Single Substitution lookup 12 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 3" { "Single Substitution lookup 3 subtable"  } []
+Lookup: 4 0 0 "'calt' Contextual Alternates in Latin lookup 4" { "'calt' Contextual Alternates in Latin lookup 4 subtable"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' Contextual Alternates in Latin lookup 5" { "'calt' Contextual Alternates in Latin lookup 5 contextual 0"  "'calt' Contextual Alternates in Latin lookup 5 contextual 1"  "'calt' Contextual Alternates in Latin lookup 5 contextual 2"  "'calt' Contextual Alternates in Latin lookup 5 contextual 3"  "'calt' Contextual Alternates in Latin lookup 5 contextual 4"  "'calt' Contextual Alternates in Latin lookup 5 contextual 5"  "'calt' Contextual Alternates in Latin lookup 5 contextual 6"  "'calt' Contextual Alternates in Latin lookup 5 contextual 7"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 2 0 0 "Multiple Substitution lookup 6" { "Multiple Substitution lookup 6 subtable"  } []
+Lookup: 2 0 0 "Multiple Substitution lookup 7" { "Multiple Substitution lookup 7 subtable"  } []
+Lookup: 2 0 0 "Multiple Substitution lookup 8" { "Multiple Substitution lookup 8 subtable"  } []
+Lookup: 2 0 0 "Multiple Substitution lookup 9" { "Multiple Substitution lookup 9 subtable"  } []
+Lookup: 2 0 0 "Multiple Substitution lookup 10" { "Multiple Substitution lookup 10 subtable"  } []
+Lookup: 2 0 0 "Multiple Substitution lookup 11" { "Multiple Substitution lookup 11 subtable"  } []
+Lookup: 2 0 0 "Multiple Substitution lookup 12" { "Multiple Substitution lookup 12 subtable"  } []
+Lookup: 2 0 0 "Multiple Substitution lookup 13" { "Multiple Substitution lookup 13 subtable"  } []
+Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0 subtable"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-ChainSub2: coverage "'calt' Contextual Alternates in Latin lookup 11 contextual 1" 0 0 0 1
+KernClass2: 3 2 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+ 80 a aa adieresis ae aeae aee e ee i ia ii o odieresis oe oo u ua ui uo uu y yoe yy
+ 47 g h j k ks l lj m mp n nt p r rj rs rt s sj t v
+ 83 g.init h.init j.init k.init l.init m.init n.init p.init r.init s.init t.init v.init
+ 0 {} 0 {} 0 {} 586 {} 0 {} 586 {}
+ChainSub2: coverage "'calt' Contextual Alternates in Latin lookup 5 contextual 7" 0 0 0 1
+ 1 0 1
+  Coverage: 2 rj
+  FCoverage: 80 a e i o u y adieresis odieresis aa aeae aee ee ia ii oo ua ui uo yy yoe uu ae oe
+ 1
+  SeqLookup: 0 "Multiple Substitution lookup 13"
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Latin lookup 5 contextual 6" 0 0 0 1
+ 1 0 1
+  Coverage: 2 lj
+  FCoverage: 80 a e i o u y adieresis odieresis aa aeae aee ee ia ii oo ua ui uo yy yoe uu ae oe
+ 1
+  SeqLookup: 0 "Multiple Substitution lookup 12"
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Latin lookup 5 contextual 5" 0 0 0 1
+ 1 0 1
+  Coverage: 2 sj
+  FCoverage: 80 a e i o u y adieresis odieresis aa aeae aee ee ia ii oo ua ui uo yy yoe uu ae oe
+ 1
+  SeqLookup: 0 "Multiple Substitution lookup 11"
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Latin lookup 5 contextual 4" 0 0 0 1
+ 1 0 1
+  Coverage: 2 rs
+  FCoverage: 80 a e i o u y adieresis odieresis aa aeae aee ee ia ii oo ua ui uo yy yoe uu ae oe
+ 1
+  SeqLookup: 0 "Multiple Substitution lookup 10"
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Latin lookup 5 contextual 3" 0 0 0 1
+ 1 0 1
+  Coverage: 2 nt
+  FCoverage: 80 a e i o u y adieresis odieresis aa aeae aee ee ia ii oo ua ui uo yy yoe uu ae oe
+ 1
+  SeqLookup: 0 "Multiple Substitution lookup 9"
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Latin lookup 5 contextual 2" 0 0 0 1
+ 1 0 1
+  Coverage: 2 rt
+  FCoverage: 80 a e i o u y adieresis odieresis aa aeae aee ee ia ii oo ua ui uo yy yoe uu ae oe
+ 1
+  SeqLookup: 0 "Multiple Substitution lookup 8"
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Latin lookup 5 contextual 1" 0 0 0 1
+ 1 0 1
+  Coverage: 2 mp
+  FCoverage: 80 a e i o u y adieresis odieresis aa aeae aee ee ia ii oo ua ui uo yy yoe uu ae oe
+ 1
+  SeqLookup: 0 "Multiple Substitution lookup 7"
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Latin lookup 5 contextual 0" 0 0 0 1
+ 1 0 1
+  Coverage: 2 ks
+  FCoverage: 80 a e i o u y adieresis odieresis aa aeae aee ee ia ii oo ua ui uo yy yoe uu ae oe
+ 1
+  SeqLookup: 0 "Multiple Substitution lookup 6"
+EndFPST
+ChainSub2: coverage "'calt' Contextual Alternates in Latin lookup 1 contextual 1" 0 0 0 1
  1 0 1
   Coverage: 23 k g m p t s n r l j h v
-  FCoverage: 74 a e i o u y adieresis odieresis aa aeae aee ee ia ii oo ua ui uo yy yoe uu
+  FCoverage: 80 a e i o u y adieresis odieresis aa aeae aee ee ia ii oo ua ui uo yy yoe uu ae oe
  1
-  SeqLookup: 0 "Single Substitution lookup 12"
+  SeqLookup: 0 "Single Substitution lookup 3"
 EndFPST
-ChainSub2: coverage "'calt' Contextual Alternates in Latin lookup 11 contextual 0" 0 0 0 1
+ChainSub2: coverage "'calt' Contextual Alternates in Latin lookup 1 contextual 0" 0 0 0 1
  1 1 1
   Coverage: 23 k g m p t s n r l j h v
-  BCoverage: 74 a e i o u y adieresis odieresis aa aeae aee ee ia ii oo ua ui uo yy yoe uu
-  FCoverage: 74 a e i o u y adieresis odieresis aa aeae aee ee ia ii oo ua ui uo yy yoe uu
- 0
-EndFPST
-ChainSub2: coverage "'calt' Contextual Alternates in Latin lookup 8 contextual 1" 0 0 0 1
- 1 0 1
-  Coverage: 19 k g m p t s n r l j
-  FCoverage: 74 a e i o u y adieresis odieresis aa aeae aee ee ia ii oo ua ui uo yy yoe uu
- 1
-  SeqLookup: 0 "Single Substitution lookup 9"
-EndFPST
-ChainSub2: coverage "'calt' Contextual Alternates in Latin lookup 8 contextual 0" 0 0 0 1
- 1 1 1
-  Coverage: 19 k g m p t s n r l j
-  BCoverage: 74 a e i o u y adieresis odieresis aa aeae aee ee ia ii oo ua ui uo yy yoe uu
-  FCoverage: 74 a e i o u y adieresis odieresis aa aeae aee ee ia ii oo ua ui uo yy yoe uu
- 0
-EndFPST
-ChainSub2: coverage "'calt' Contextual Alternates in Latin lookup 4 contextual 1" 0 0 0 1
- 1 1 0
-  Coverage: 1 g
-  BCoverage: 12 a e i o u aa
- 1
-  SeqLookup: 0 "Single Substitution lookup 6"
-EndFPST
-ChainSub2: coverage "'calt' Contextual Alternates in Latin lookup 4 contextual 0" 0 0 0 1
- 1 0 1
-  Coverage: 1 g
-  FCoverage: 12 a e i o u aa
- 1
-  SeqLookup: 0 "Single Substitution lookup 5"
-EndFPST
-ChainSub2: coverage "'calt' Contextual Alternates in Latin lookup 0 contextual 1" 0 0 0 1
- 1 1 0
-  Coverage: 1 g
-  BCoverage: 9 a e i o u
+  BCoverage: 80 a e i o u y adieresis odieresis aa aeae aee ee ia ii oo ua ui uo yy yoe uu ae oe
+  FCoverage: 80 a e i o u y adieresis odieresis aa aeae aee ee ia ii oo ua ui uo yy yoe uu ae oe
  1
   SeqLookup: 0 "Single Substitution lookup 2"
 EndFPST
-ChainSub2: coverage "'calt' Contextual Alternates in Latin lookup 0 contextual 0" 0 0 0 1
- 1 0 1
-  Coverage: 1 g
-  FCoverage: 9 a e i o u
- 1
-  SeqLookup: 0 "Single Substitution lookup 1"
-EndFPST
 LangName: 1033 "" "" "" "" "" "" "" "" "" "nexiapd"
-Encoding: Custom
+Encoding: UnicodeBmp
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
@@ -138,7 +161,7 @@ FitToEm: 0
 WinInfo: 0 26 14
 BeginPrivate: 0
 EndPrivate
-BeginChars: 102 58
+BeginChars: 65555 58
 
 StartChar: .notdef
 Encoding: 0 0 0
@@ -163,8 +186,8 @@ Validated: 1
 EndChar
 
 StartChar: space
-Encoding: 1 32 1
-Width: 585
+Encoding: 32 32 1
+Width: 1800
 GlyphClass: 1
 Flags: W
 LayerCount: 2
@@ -173,8 +196,8 @@ Validated: 1
 EndChar
 
 StartChar: a
-Encoding: 29 97 2
-Width: 1755
+Encoding: 97 97 2
+Width: 1760
 GlyphClass: 1
 Flags: W
 HStem: 0 292<877 1170> 292 293<1170 1462> 877 293<0 292 585 1462 1755 2048> 1442 20G<292 585 1462 1755> 1462 293<585 877 1170 1462> 1755 293<877 1170>
@@ -229,8 +252,8 @@ Validated: 5
 EndChar
 
 StartChar: e
-Encoding: 33 101 3
-Width: 1755
+Encoding: 101 101 3
+Width: 1760
 GlyphClass: 1
 Flags: W
 HStem: 0 292<877 1170> 292 293<585 877> 877 293<0 292 585 1462 1755 2048> 1442 20G<292 585 1462 1755> 1462 293<585 877 1170 1462> 1755 293<877 1170>
@@ -285,7 +308,7 @@ Validated: 5
 EndChar
 
 StartChar: g
-Encoding: 35 103 4
+Encoding: 103 103 4
 Width: 877
 GlyphClass: 1
 Flags: W
@@ -329,18 +352,14 @@ SplineSet
  1170 877 l 1
  877 877 l 1x1420
 EndSplineSet
-Validated: 517
-Substitution2: "Single Substitution lookup 12 subtable" g.init
-Substitution2: "Single Substitution lookup 9 subtable" g.init
-Substitution2: "Single Substitution lookup 6 subtable" uniE010
-Substitution2: "Single Substitution lookup 5 subtable" uniE00F
-Substitution2: "Single Substitution lookup 2 subtable" uniE010
-Substitution2: "Single Substitution lookup 1 subtable" uniE00F
+Validated: 5
+Substitution2: "Single Substitution lookup 3 subtable" g.init
+Substitution2: "Single Substitution lookup 2 subtable" g.init
 EndChar
 
 StartChar: h
-Encoding: 36 104 5
-Width: 1462
+Encoding: 104 104 5
+Width: 877
 GlyphClass: 1
 Flags: W
 HStem: 0 292<877 1170> 292 293<585 877> 877 293<0 292 585 877> 2028 20G<877 1170> 2028 20G<877 1170>
@@ -371,12 +390,13 @@ SplineSet
  292 585 l 1
 EndSplineSet
 Validated: 5
-Substitution2: "Single Substitution lookup 12 subtable" h.init
+Substitution2: "Single Substitution lookup 3 subtable" h.init
+Substitution2: "Single Substitution lookup 2 subtable" h.init
 EndChar
 
 StartChar: i
-Encoding: 37 105 6
-Width: 1755
+Encoding: 105 105 6
+Width: 1760
 GlyphClass: 1
 Flags: W
 HStem: 0 292<877 1170> 292 293<1170 1462> 585 292<1462 1755> 877 293<0 292 1755 2048> 1170 292<292 585 1462 1755> 1462 293<585 877 1170 1462> 1755 293<877 1170>
@@ -439,8 +459,8 @@ Validated: 5
 EndChar
 
 StartChar: j
-Encoding: 38 106 7
-Width: 1462
+Encoding: 106 106 7
+Width: 877
 GlyphClass: 1
 Flags: W
 HStem: 0 292<877 1170> 292 293<585 877> 585 292<292 585> 877 293<0 292> 1170 292<292 585> 1462 293<585 877> 1755 293<877 1170>
@@ -485,13 +505,13 @@ SplineSet
  877 1755 l 1
 EndSplineSet
 Validated: 5
-Substitution2: "Single Substitution lookup 12 subtable" j.init
-Substitution2: "Single Substitution lookup 9 subtable" j.init
+Substitution2: "Single Substitution lookup 3 subtable" j.init
+Substitution2: "Single Substitution lookup 2 subtable" j.init
 EndChar
 
 StartChar: k
-Encoding: 39 107 8
-Width: 1462
+Encoding: 107 107 8
+Width: 877
 GlyphClass: 1
 Flags: W
 HStem: 0 292<0 585 877 1170> 585 292<292 585> 877 293<0 292>
@@ -520,13 +540,13 @@ SplineSet
  0 877 l 1xb0
 EndSplineSet
 Validated: 5
-Substitution2: "Single Substitution lookup 12 subtable" k.init
-Substitution2: "Single Substitution lookup 9 subtable" k.init
+Substitution2: "Single Substitution lookup 3 subtable" k.init
+Substitution2: "Single Substitution lookup 2 subtable" k.init
 EndChar
 
 StartChar: l
-Encoding: 40 108 9
-Width: 1462
+Encoding: 108 108 9
+Width: 877
 GlyphClass: 1
 Flags: W
 HStem: 0 21G<877 1170> 0 21G<877 1170> 585 292<292 585> 877 293<0 292> 2028 20G<877 1170> 2028 20G<877 1170>
@@ -555,13 +575,13 @@ SplineSet
  877 0 l 1xa980
 EndSplineSet
 Validated: 5
-Substitution2: "Single Substitution lookup 12 subtable" l.init
-Substitution2: "Single Substitution lookup 9 subtable" l.init
+Substitution2: "Single Substitution lookup 3 subtable" l.init
+Substitution2: "Single Substitution lookup 2 subtable" l.init
 EndChar
 
 StartChar: m
-Encoding: 41 109 10
-Width: 1426
+Encoding: 109 109 10
+Width: 877
 GlyphClass: 1
 Flags: W
 HStem: 0 292<877 1170> 292 293<585 877> 877 293<0 292 585 1170> 1442 20G<292 585> 1462 293<585 877> 1755 293<877 1170>
@@ -604,13 +624,13 @@ SplineSet
  877 1755 l 1
 EndSplineSet
 Validated: 5
-Substitution2: "Single Substitution lookup 12 subtable" m.init
-Substitution2: "Single Substitution lookup 9 subtable" m.init
+Substitution2: "Single Substitution lookup 3 subtable" m.init
+Substitution2: "Single Substitution lookup 2 subtable" m.init
 EndChar
 
 StartChar: n
-Encoding: 42 110 11
-Width: 1462
+Encoding: 110 110 11
+Width: 877
 GlyphClass: 1
 Flags: W
 HStem: 0 21G<877 1170> 0 21G<877 1170> 877 293<0 292> 1170 292<292 585> 2028 20G<877 1170> 2028 20G<877 1170>
@@ -639,13 +659,13 @@ SplineSet
  877 0 l 1x9980
 EndSplineSet
 Validated: 5
-Substitution2: "Single Substitution lookup 12 subtable" n.init
-Substitution2: "Single Substitution lookup 9 subtable" n.init
+Substitution2: "Single Substitution lookup 3 subtable" n.init
+Substitution2: "Single Substitution lookup 2 subtable" n.init
 EndChar
 
 StartChar: o
-Encoding: 43 111 12
-Width: 1755
+Encoding: 111 111 12
+Width: 1760
 GlyphClass: 1
 Flags: W
 HStem: 0 292<877 1170> 292 293<585 877 1170 1462> 585 292<292 585 1462 1755> 877 293<0 292 1755 2048> 1170 292<292 585 1462 1755> 1462 293<585 877 1170 1462> 1755 293<877 1170>
@@ -718,8 +738,8 @@ Validated: 5
 EndChar
 
 StartChar: p
-Encoding: 44 112 13
-Width: 1462
+Encoding: 112 112 13
+Width: 877
 GlyphClass: 1
 Flags: W
 HStem: 0 21G<877 1170> 0 21G<877 1170> 877 293<0 292 585 877> 1442 20G<292 585> 1462 293<585 877> 1755 293<877 1170>
@@ -750,13 +770,13 @@ SplineSet
  877 1755 l 1
 EndSplineSet
 Validated: 5
-Substitution2: "Single Substitution lookup 12 subtable" p.init
-Substitution2: "Single Substitution lookup 9 subtable" p.init
+Substitution2: "Single Substitution lookup 3 subtable" p.init
+Substitution2: "Single Substitution lookup 2 subtable" p.init
 EndChar
 
 StartChar: r
-Encoding: 46 114 14
-Width: 1462
+Encoding: 114 114 14
+Width: 877
 GlyphClass: 1
 Flags: W
 HStem: 0 292<0 877> 877 293<0 877>
@@ -775,13 +795,13 @@ SplineSet
  0 0 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 12 subtable" r.init
-Substitution2: "Single Substitution lookup 9 subtable" r.init
+Substitution2: "Single Substitution lookup 3 subtable" r.init
+Substitution2: "Single Substitution lookup 2 subtable" r.init
 EndChar
 
 StartChar: s
-Encoding: 47 115 15
-Width: 1462
+Encoding: 115 115 15
+Width: 877
 GlyphClass: 1
 Flags: W
 HStem: 877 293<0 877> 1755 293<0 877>
@@ -800,13 +820,13 @@ SplineSet
  0 877 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 12 subtable" s.init
-Substitution2: "Single Substitution lookup 9 subtable" s.init
+Substitution2: "Single Substitution lookup 3 subtable" s.init
+Substitution2: "Single Substitution lookup 2 subtable" s.init
 EndChar
 
 StartChar: t
-Encoding: 48 116 16
-Width: 1462
+Encoding: 116 116 16
+Width: 877
 GlyphClass: 1
 Flags: W
 HStem: 877 293<0 292> 1170 292<292 585> 1755 293<0 585>
@@ -835,13 +855,13 @@ SplineSet
  877 877 l 1xb4
 EndSplineSet
 Validated: 5
-Substitution2: "Single Substitution lookup 12 subtable" t.init
-Substitution2: "Single Substitution lookup 9 subtable" t.init
+Substitution2: "Single Substitution lookup 3 subtable" t.init
+Substitution2: "Single Substitution lookup 2 subtable" t.init
 EndChar
 
 StartChar: u
-Encoding: 49 117 17
-Width: 1755
+Encoding: 117 117 17
+Width: 1760
 GlyphClass: 1
 Flags: W
 HStem: 0 292<877 1170> 292 293<585 877 1170 1462> 585 292<292 585 1462 1755> 877 293<0 292 1755 2048>
@@ -889,8 +909,8 @@ Validated: 5
 EndChar
 
 StartChar: v
-Encoding: 50 118 18
-Width: 1462
+Encoding: 118 118 18
+Width: 877
 GlyphClass: 1
 Flags: W
 HStem: 0 21G<877 1170> 0 21G<877 1170> 585 292<292 585> 877 293<0 292>
@@ -919,12 +939,13 @@ SplineSet
  877 0 l 1x96
 EndSplineSet
 Validated: 5
-Substitution2: "Single Substitution lookup 12 subtable" v.init
+Substitution2: "Single Substitution lookup 3 subtable" v.init
+Substitution2: "Single Substitution lookup 2 subtable" v.init
 EndChar
 
 StartChar: w
-Encoding: 51 119 19
-Width: 1755
+Encoding: 119 119 19
+Width: 1760
 GlyphClass: 1
 Flags: W
 HStem: 0 21G<877 1170> 0 21G<877 1170> 292 293<585 877 1170 1462> 585 292<292 585 1462 1755> 877 293<0 292 1755 2048>
@@ -970,8 +991,8 @@ Validated: 5
 EndChar
 
 StartChar: y
-Encoding: 53 121 20
-Width: 1755
+Encoding: 121 121 20
+Width: 1760
 GlyphClass: 1
 Flags: W
 HStem: 0 292<0 585 877 1170> 292 293<1170 1462> 585 292<292 585 1462 1755> 877 293<0 292 1755 2048>
@@ -1018,8 +1039,8 @@ Validated: 5
 EndChar
 
 StartChar: adieresis
-Encoding: 55 228 21
-Width: 1755
+Encoding: 228 228 21
+Width: 1760
 GlyphClass: 1
 Flags: W
 HStem: 0 292<877 1170> 292 293<1170 1462> 877 293<0 292 585 1462 1755 2048> 1442 20G<292 585 1462 1755> 1462 586<585 877 1170 1462> 1755 293<0 585 877 1170 1462 2048>
@@ -1072,8 +1093,8 @@ Validated: 5
 EndChar
 
 StartChar: odieresis
-Encoding: 56 246 22
-Width: 1755
+Encoding: 246 246 22
+Width: 1760
 GlyphClass: 1
 Flags: W
 HStem: 0 292<877 1170> 292 293<585 877 1170 1462> 585 292<292 585 1462 1755> 877 293<0 292 1755 2048> 1170 292<292 585 1462 1755> 1462 586<585 877 1170 1462> 1755 293<0 585 877 1170 1462 2048>
@@ -1144,53 +1165,54 @@ Validated: 5
 EndChar
 
 StartChar: aa
-Encoding: 57 57344 23
-Width: 1753
+Encoding: 57344 57344 23
+Width: 1760
 GlyphClass: 1
 Flags: W
+HStem: 0 21G<877 1170> 0 21G<877 1170> 877 585<292 585 1462 1755> 877 293<0 292 585 877 1170 1462 1755 2048> 1462 293<585 877 1170 1462> 2028 20G<877 1170> 2028 20G<877 1170>
+VStem: 292 293<1170 1462> 877 293<0 877 1170 1462 1755 2048> 1462 293<1170 1462>
+CounterMasks: 1 01c0
 LayerCount: 2
 Fore
 SplineSet
-877 0 m 1
+877 0 m 1x91c0
  877 877 l 1
  0 877 l 1
  0 1170 l 1
- 292 1170 l 1
+ 292 1170 l 1x91c0
  292 1462 l 1
- 585 1462 l 1
+ 585 1462 l 1x21c0
  585 1170 l 1
  877 1170 l 1
- 877 1462 l 1
- 585 1462 l 1
+ 877 1462 l 1x19c0
+ 585 1462 l 1x21c0
  585 1755 l 1
  877 1755 l 1
  877 2048 l 1
  1170 2048 l 1
  1170 1755 l 1
- 1462 1755 l 1
- 1462 1462 l 1
+ 1462 1755 l 1x0dc0
+ 1462 1462 l 1x21c0
  1170 1462 l 1
  1170 1170 l 1
- 1462 1170 l 1
+ 1462 1170 l 1x19c0
  1462 1462 l 1
- 1755 1462 l 1
+ 1755 1462 l 1x21c0
  1755 1170 l 1
  2048 1170 l 1
  2048 877 l 1
  1170 877 l 1
  1170 0 l 1
- 877 0 l 1
+ 877 0 l 1x91c0
 EndSplineSet
 Validated: 5
-Ligature2: "'liga' Standard Ligatures in Latin lookup 10 subtable" a a
-Ligature2: "'liga' Standard Ligatures in Latin lookup 7 subtable" a a
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0 subtable" a a
 LCarets2: 1 0
-Ligature2: "'liga' Standard Ligatures in Latin lookup 3 subtable" a a
 EndChar
 
 StartChar: aeae
-Encoding: 60 57345 24
-Width: 1755
+Encoding: 57345 57345 24
+Width: 1760
 Flags: W
 HStem: 0 21G<877 1170> 0 21G<877 1170> 877 585<292 585 1462 1755> 877 293<0 292 585 877 1170 1462 1755 2048> 1462 586<585 877 1170 1462> 1755 293<0 585 1462 2048>
 VStem: 292 293<1170 1462> 877 293<0 877 1170 1462> 1462 293<1170 1462>
@@ -1229,13 +1251,12 @@ SplineSet
  877 0 l 1x9380
 EndSplineSet
 Validated: 5
-Ligature2: "'liga' Standard Ligatures in Latin lookup 10 subtable" adieresis adieresis
-Ligature2: "'liga' Standard Ligatures in Latin lookup 7 subtable" adieresis adieresis
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0 subtable" adieresis adieresis
 EndChar
 
 StartChar: ae
-Encoding: 61 57346 25
-Width: 1755
+Encoding: 57346 57346 25
+Width: 1760
 Flags: W
 HStem: 0 21G<877 1170> 0 21G<877 1170> 292 293<1170 1462> 877 293<0 292 585 877 1170 1462 1755 2048> 1442 20G<292 585 877 1170 1462 1755> 1462 293<585 877 1170 1462> 2028 20G<877 1170>
 VStem: 292 293<1170 1462> 877 293<0 292 585 877 1170 1462 1755 2048> 1462 293<585 877 1170 1462>
@@ -1282,11 +1303,12 @@ SplineSet
  877 0 l 1xbbc0
 EndSplineSet
 Validated: 5
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0 subtable" a e
 EndChar
 
 StartChar: aee
-Encoding: 62 57347 26
-Width: 1755
+Encoding: 57347 57347 26
+Width: 1760
 Flags: W
 HStem: 0 21G<877 1170> 0 21G<877 1170> 292 293<1170 1462> 877 293<0 292 585 877 1170 1462 1755 2048> 1442 20G<292 585 1462 1755> 1462 293<1170 1462> 1755 293<0 585>
 VStem: 292 293<1170 1462> 877 293<0 292 585 877 1170 1462> 1462 293<585 877 1170 1462>
@@ -1333,13 +1355,12 @@ SplineSet
  877 0 l 1xb9c0
 EndSplineSet
 Validated: 5
-Ligature2: "'liga' Standard Ligatures in Latin lookup 10 subtable" adieresis e
-Ligature2: "'liga' Standard Ligatures in Latin lookup 7 subtable" adieresis e
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0 subtable" adieresis e
 EndChar
 
 StartChar: ee
-Encoding: 63 57348 27
-Width: 1755
+Encoding: 57348 57348 27
+Width: 1760
 Flags: W
 HStem: 0 292<877 1170> 292 293<585 877 1170 1462> 877 293<0 292 585 877 1170 1462 1755 2048> 1442 20G<292 585 877 1170 1462 1755> 1462 293<585 877 1170 1462> 2028 20G<877 1170>
 VStem: 292 293<585 877 1170 1462> 585 292<292 585> 877 293<0 292 1170 1462 1755 2048> 1170 292<292 585> 1462 293<585 877 1170 1462>
@@ -1396,13 +1417,12 @@ SplineSet
  292 585 l 1x7620
 EndSplineSet
 Validated: 5
-Ligature2: "'liga' Standard Ligatures in Latin lookup 10 subtable" e e
-Ligature2: "'liga' Standard Ligatures in Latin lookup 7 subtable" e e
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0 subtable" e e
 EndChar
 
 StartChar: ia
-Encoding: 64 57349 28
-Width: 1755
+Encoding: 57349 57349 28
+Width: 1760
 Flags: W
 HStem: 0 21G<877 1170> 0 21G<877 1170> 877 293<0 292 1170 1462 1755 2048> 1170 292<292 585> 1462 293<585 877 1170 1462> 2028 20G<877 1170> 2028 20G<877 1170>
 VStem: 0 292<877 1170> 292 293<1170 1462> 877 293<0 877 1170 1462 1755 2048> 1462 293<1170 1462>
@@ -1442,13 +1462,12 @@ SplineSet
  877 0 l 1xace0
 EndSplineSet
 Validated: 5
-Ligature2: "'liga' Standard Ligatures in Latin lookup 10 subtable" i a
-Ligature2: "'liga' Standard Ligatures in Latin lookup 7 subtable" i a
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0 subtable" i a
 EndChar
 
 StartChar: ii
-Encoding: 65 57350 29
-Width: 1755
+Encoding: 57350 57350 29
+Width: 1760
 Flags: W
 HStem: 0 21G<877 1170> 0 21G<877 1170> 877 293<0 292 1755 2048> 1170 292<292 585 1462 1755> 1462 293<585 877 1170 1462> 2028 20G<877 1170> 2028 20G<877 1170>
 VStem: 0 292<877 1170> 292 293<1170 1462> 877 293<0 1462 1755 2048> 1462 293<1170 1462> 1755 293<877 1170>
@@ -1490,13 +1509,12 @@ SplineSet
  877 0 l 1x88e0
 EndSplineSet
 Validated: 5
-Ligature2: "'liga' Standard Ligatures in Latin lookup 10 subtable" i i
-Ligature2: "'liga' Standard Ligatures in Latin lookup 7 subtable" i i
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0 subtable" i i
 EndChar
 
 StartChar: oe
-Encoding: 66 57351 30
-Width: 1755
+Encoding: 57351 57351 30
+Width: 1760
 Flags: W
 HStem: 0 21G<877 1170> 0 21G<877 1170> 292 293<585 877 1170 1462> 585 292<292 585> 877 293<0 292 1170 1462 1755 2048> 1170 292<292 585> 1462 293<585 877 1170 1462> 2028 20G<877 1170> 2028 20G<877 1170>
 VStem: 0 292<877 1170> 292 293<585 877 1170 1462> 877 293<0 292 585 877 1170 1462 1755 2048> 1462 293<585 877 1170 1462>
@@ -1553,11 +1571,12 @@ SplineSet
  877 0 l 1xa838
 EndSplineSet
 Validated: 5
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0 subtable" o e
 EndChar
 
 StartChar: oo
-Encoding: 67 57352 31
-Width: 1755
+Encoding: 57352 57352 31
+Width: 1760
 Flags: W
 HStem: 0 21G<877 1170> 0 21G<877 1170> 292 293<585 877 1170 1462> 585 292<292 585 1462 1755> 877 293<0 292 1755 2048> 1170 292<292 585 1462 1755> 1462 293<585 877 1170 1462> 2028 20G<877 1170> 2028 20G<877 1170>
 VStem: 0 292<877 1170> 292 293<585 877 1170 1462> 877 293<0 292 585 1462 1755 2048> 1462 293<585 877 1170 1462> 1755 293<877 1170>
@@ -1617,13 +1636,12 @@ SplineSet
  877 0 l 1xa238
 EndSplineSet
 Validated: 5
-Ligature2: "'liga' Standard Ligatures in Latin lookup 10 subtable" o o
-Ligature2: "'liga' Standard Ligatures in Latin lookup 7 subtable" o o
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0 subtable" o o
 EndChar
 
 StartChar: ua
-Encoding: 68 57353 32
-Width: 1755
+Encoding: 57353 57353 32
+Width: 1760
 Flags: W
 HStem: 0 21G<877 1170> 0 21G<877 1170> 585 292<292 585> 877 293<0 292 1170 1462 1755 2048> 1462 293<1170 1462> 2028 20G<877 1170 1462 1755>
 VStem: 0 292<877 1170> 292 293<585 877> 877 293<0 292 585 877 1170 1462 1755 2048> 1462 293<1170 1462>
@@ -1663,13 +1681,12 @@ SplineSet
  877 0 l 1x9dc0
 EndSplineSet
 Validated: 5
-Ligature2: "'liga' Standard Ligatures in Latin lookup 10 subtable" u a
-Ligature2: "'liga' Standard Ligatures in Latin lookup 7 subtable" u a
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0 subtable" u a
 EndChar
 
 StartChar: ui
-Encoding: 69 57361 33
-Width: 1755
+Encoding: 57361 57361 33
+Width: 1760
 Flags: W
 HStem: 0 21G<877 1170> 0 21G<877 1170> 585 292<292 585> 877 293<0 292 1755 2048> 1170 292<1462 1755> 2028 20G<877 1170> 2028 20G<877 1170>
 VStem: 0 292<877 1170> 292 293<585 877> 877 293<0 292 585 1462 1755 2048> 1462 293<1170 1462> 1755 293<877 1170>
@@ -1711,13 +1728,12 @@ SplineSet
  877 0 l 1xace0
 EndSplineSet
 Validated: 5
-Ligature2: "'liga' Standard Ligatures in Latin lookup 10 subtable" u i
-Ligature2: "'liga' Standard Ligatures in Latin lookup 7 subtable" u i
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0 subtable" u i
 EndChar
 
 StartChar: uo
-Encoding: 70 57362 34
-Width: 1755
+Encoding: 57362 57362 34
+Width: 1760
 Flags: W
 HStem: 0 21G<877 1170> 0 21G<877 1170> 292 293<585 877 1170 1462> 585 292<292 585 1462 1755> 877 293<0 292 1755 2048> 1170 292<1462 1755> 2028 20G<877 1170> 2028 20G<877 1170>
 VStem: 0 292<877 1170> 292 293<585 877> 877 293<0 292 585 1462 1755 2048> 1462 293<585 877 1170 1462> 1755 293<877 1170>
@@ -1768,13 +1784,12 @@ SplineSet
  877 0 l 1xa670
 EndSplineSet
 Validated: 5
-Ligature2: "'liga' Standard Ligatures in Latin lookup 10 subtable" u o
-Ligature2: "'liga' Standard Ligatures in Latin lookup 7 subtable" u o
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0 subtable" u o
 EndChar
 
 StartChar: yy
-Encoding: 71 57363 35
-Width: 1755
+Encoding: 57363 57363 35
+Width: 1760
 Flags: W
 HStem: 0 585<585 877 1170 1462> 0 292<0 585 1462 2048> 585 292<292 585 1462 1755> 877 293<0 292 1755 2048>
 VStem: 0 292<877 1170> 292 293<585 877> 877 293<585 1170> 1462 293<585 877> 1755 293<877 1170>
@@ -1816,13 +1831,12 @@ SplineSet
  1755 877 l 1x23
 EndSplineSet
 Validated: 5
-Ligature2: "'liga' Standard Ligatures in Latin lookup 10 subtable" y y
-Ligature2: "'liga' Standard Ligatures in Latin lookup 7 subtable" y y
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0 subtable" y y
 EndChar
 
 StartChar: yoe
-Encoding: 72 57364 36
-Width: 1755
+Encoding: 57364 57364 36
+Width: 1760
 Flags: W
 HStem: 0 292<0 585> 292 293<1170 1462> 585 292<292 585 1462 1755> 877 293<0 292 1755 2048> 1170 292<1462 1755> 1755 293<1462 2048>
 VStem: 0 292<877 1170> 292 293<585 877> 877 293<585 1462> 1462 293<585 877 1170 1462> 1755 293<877 1170>
@@ -1873,13 +1887,12 @@ SplineSet
  0 0 l 1x86c0
 EndSplineSet
 Validated: 5
-Ligature2: "'liga' Standard Ligatures in Latin lookup 10 subtable" y odieresis
-Ligature2: "'liga' Standard Ligatures in Latin lookup 7 subtable" y odieresis
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0 subtable" y odieresis
 EndChar
 
 StartChar: uu
-Encoding: 73 57365 37
-Width: 1755
+Encoding: 57365 57365 37
+Width: 1760
 Flags: W
 HStem: 0 21G<877 1170> 0 21G<877 1170> 292 293<585 877 1170 1462> 585 292<292 585 1462 1755> 877 293<0 292 1755 2048>
 VStem: 0 292<877 1170> 292 293<585 877> 877 293<0 292 585 1170> 1462 293<585 877> 1755 293<877 1170>
@@ -1921,13 +1934,12 @@ SplineSet
  1755 877 l 1x1180
 EndSplineSet
 Validated: 5
-Ligature2: "'liga' Standard Ligatures in Latin lookup 10 subtable" u u
-Ligature2: "'liga' Standard Ligatures in Latin lookup 7 subtable" u u
+Ligature2: "'liga' Standard Ligatures in Latin lookup 0 subtable" u u
 EndChar
 
 StartChar: sj
-Encoding: 75 57366 38
-Width: 1462
+Encoding: 57366 57366 38
+Width: 877
 Flags: W
 HStem: 0 292<877 1170> 292 293<585 877> 877 293<0 292 585 877> 1442 20G<292 585> 1755 293<0 585>
 VStem: 292 293<585 877 1170 1462> 585 292<292 585> 877 293<0 292 1170 1462>
@@ -1965,13 +1977,13 @@ SplineSet
  292 585 l 1
 EndSplineSet
 Validated: 5
-Ligature2: "'liga' Standard Ligatures in Latin lookup 10 subtable" s j
-Ligature2: "'liga' Standard Ligatures in Latin lookup 7 subtable" s j
+MultipleSubs2: "Multiple Substitution lookup 11 subtable" s j.init
+Ligature2: "'calt' Contextual Alternates in Latin lookup 4 subtable" s j
 EndChar
 
 StartChar: h.init
-Encoding: 84 -1 39
-Width: 877
+Encoding: 65536 -1 39
+Width: 880
 Flags: W
 HStem: 0 292<0 292> 292 293<292 585> 877 293<292 585 877 1170> 2028 20G<0 292> 2028 20G<0 292>
 VStem: 0 292<0 292 1170 2048> 292 293<292 585> 585 292<585 877>
@@ -2004,8 +2016,8 @@ Validated: 5
 EndChar
 
 StartChar: j.init
-Encoding: 85 -1 40
-Width: 877
+Encoding: 65537 -1 40
+Width: 880
 Flags: W
 HStem: 0 292<0 292> 292 293<292 585> 585 292<585 877> 877 293<877 1170> 1170 292<585 877> 1462 293<292 585> 1755 293<0 292>
 VStem: 0 292<0 292 1755 2048> 292 293<292 585 1462 1755> 585 292<585 877 1170 1462> 877 293<877 1170>
@@ -2052,8 +2064,8 @@ Validated: 5
 EndChar
 
 StartChar: k.init
-Encoding: 86 -1 41
-Width: 914
+Encoding: 65538 -1 41
+Width: 880
 Flags: W
 HStem: 0 292<0 292 585 1170> 585 292<585 877> 877 293<877 1170>
 VStem: 585 292<585 877> 877 293<877 1170>
@@ -2084,8 +2096,8 @@ Validated: 5
 EndChar
 
 StartChar: l.init
-Encoding: 87 -1 42
-Width: 877
+Encoding: 65539 -1 42
+Width: 880
 Flags: W
 HStem: 0 21G<0 292> 0 21G<0 292> 585 292<585 877> 877 293<877 1170> 2028 20G<0 292> 2028 20G<0 292>
 VStem: 0 292<0 292 585 2048> 585 292<585 877> 877 293<877 1170>
@@ -2116,8 +2128,8 @@ Validated: 5
 EndChar
 
 StartChar: m.init
-Encoding: 88 -1 43
-Width: 877
+Encoding: 65540 -1 43
+Width: 880
 Flags: W
 HStem: 0 292<0 292> 292 293<292 585> 877 293<0 585 877 1170> 1442 20G<585 877> 1462 293<292 585> 1755 293<0 292>
 VStem: 0 292<0 292 1755 2048> 292 293<292 585 1462 1755> 585 292<585 877 1170 1462>
@@ -2162,8 +2174,8 @@ Validated: 5
 EndChar
 
 StartChar: n.init
-Encoding: 89 -1 44
-Width: 877
+Encoding: 65541 -1 44
+Width: 880
 Flags: W
 HStem: 0 21G<0 292> 0 21G<0 292> 877 293<877 1170> 1170 292<585 877> 2028 20G<0 292> 2028 20G<0 292>
 VStem: 0 292<0 1462 1755 2048> 585 292<1170 1462> 877 293<877 1170>
@@ -2194,8 +2206,8 @@ Validated: 5
 EndChar
 
 StartChar: p.init
-Encoding: 90 -1 45
-Width: 877
+Encoding: 65542 -1 45
+Width: 880
 Flags: W
 HStem: 0 21G<0 292> 0 21G<0 292> 877 293<292 585 877 1170> 1442 20G<585 877> 1462 293<292 585> 1755 293<0 292>
 VStem: 0 292<0 877 1755 2048> 292 293<1462 1755> 585 292<1170 1462>
@@ -2228,8 +2240,8 @@ Validated: 5
 EndChar
 
 StartChar: r.init
-Encoding: 91 -1 46
-Width: 877
+Encoding: 65543 -1 46
+Width: 880
 Flags: W
 HStem: 0 292<292 1170> 877 293<292 1170>
 VStem: 0 292<292 877>
@@ -2250,8 +2262,8 @@ Validated: 1
 EndChar
 
 StartChar: s.init
-Encoding: 92 -1 47
-Width: 877
+Encoding: 65544 -1 47
+Width: 880
 Flags: W
 HStem: 877 293<292 1170> 1755 293<292 1170>
 VStem: 0 292<1170 1755>
@@ -2272,8 +2284,8 @@ Validated: 1
 EndChar
 
 StartChar: t.init
-Encoding: 93 -1 48
-Width: 877
+Encoding: 65545 -1 48
+Width: 880
 Flags: W
 HStem: 877 293<877 1170> 1170 292<585 877> 1755 293<585 1170>
 VStem: 0 292<877 1462> 585 292<1170 1462> 877 293<877 1170>
@@ -2304,8 +2316,8 @@ Validated: 5
 EndChar
 
 StartChar: v.init
-Encoding: 94 -1 49
-Width: 877
+Encoding: 65546 -1 49
+Width: 880
 Flags: W
 HStem: 0 21G<0 292> 0 21G<0 292> 585 292<585 877> 877 293<877 1170>
 VStem: 0 292<0 292 585 1170> 585 292<585 877> 877 293<877 1170>
@@ -2336,8 +2348,8 @@ Validated: 5
 EndChar
 
 StartChar: lj
-Encoding: 76 -1 50
-Width: 1462
+Encoding: 65547 -1 50
+Width: 877
 Flags: W
 HStem: 0 21G<877 1170> 0 21G<877 1170> 585 292<292 585> 877 293<0 292> 1170 292<292 585> 2028 20G<877 1170> 2028 20G<877 1170>
 VStem: 0 292<877 1170> 292 293<585 877 1170 1462> 585 585<292 585 1462 1755> 877 293<0 292 585 1462 1755 2048>
@@ -2374,13 +2386,13 @@ SplineSet
  877 0 l 1xac20
 EndSplineSet
 Validated: 5
-Ligature2: "'liga' Standard Ligatures in Latin lookup 10 subtable" l j
-Ligature2: "'liga' Standard Ligatures in Latin lookup 7 subtable" l j
+MultipleSubs2: "Multiple Substitution lookup 12 subtable" l j.init
+Ligature2: "'calt' Contextual Alternates in Latin lookup 4 subtable" l j
 EndChar
 
 StartChar: rs
-Encoding: 77 -1 51
-Width: 1462
+Encoding: 65548 -1 51
+Width: 877
 Flags: W
 HStem: 0 292<0 877> 877 293<0 877> 1755 293<0 877>
 VStem: 877 293<292 877 1170 1755>
@@ -2402,13 +2414,13 @@ SplineSet
  0 0 l 1
 EndSplineSet
 Validated: 1
-Ligature2: "'liga' Standard Ligatures in Latin lookup 10 subtable" r s
-Ligature2: "'liga' Standard Ligatures in Latin lookup 7 subtable" r s
+MultipleSubs2: "Multiple Substitution lookup 10 subtable" r s.init
+Ligature2: "'calt' Contextual Alternates in Latin lookup 4 subtable" r s
 EndChar
 
 StartChar: mp
-Encoding: 78 -1 52
-Width: 1462
+Encoding: 65549 -1 52
+Width: 877
 Flags: W
 HStem: 0 21G<877 1170> 0 21G<877 1170> 292 293<585 877> 877 293<0 292 585 877> 1442 20G<292 585> 1462 293<585 877> 1755 293<877 1170>
 VStem: 292 293<585 877 1170 1462> 585 292<1462 1755> 877 293<0 292 585 877 1755 2048>
@@ -2446,13 +2458,13 @@ SplineSet
  877 1755 l 1
 EndSplineSet
 Validated: 5
-Ligature2: "'liga' Standard Ligatures in Latin lookup 10 subtable" m p
-Ligature2: "'liga' Standard Ligatures in Latin lookup 7 subtable" m p
+MultipleSubs2: "Multiple Substitution lookup 7 subtable" m p.init
+Ligature2: "'calt' Contextual Alternates in Latin lookup 4 subtable" m p
 EndChar
 
 StartChar: rt
-Encoding: 79 -1 53
-Width: 1462
+Encoding: 65550 -1 53
+Width: 877
 Flags: W
 HStem: 0 292<0 877> 877 293<0 292 585 877> 1442 20G<292 585> 1755 293<0 585>
 VStem: 292 293<1170 1462> 877 293<292 877 1170 1462>
@@ -2480,13 +2492,13 @@ SplineSet
  0 0 l 1
 EndSplineSet
 Validated: 5
-Ligature2: "'liga' Standard Ligatures in Latin lookup 10 subtable" r t
-Ligature2: "'liga' Standard Ligatures in Latin lookup 7 subtable" r t
+MultipleSubs2: "Multiple Substitution lookup 8 subtable" r t.init
+Ligature2: "'calt' Contextual Alternates in Latin lookup 4 subtable" r t
 EndChar
 
 StartChar: ks
-Encoding: 80 -1 54
-Width: 1462
+Encoding: 65551 -1 54
+Width: 877
 Flags: W
 HStem: 0 292<0 585 877 1170> 877 293<0 292 585 877> 1755 293<0 877>
 VStem: 585 292<292 585> 877 293<1170 1755>
@@ -2517,13 +2529,13 @@ SplineSet
  292 585 l 1
 EndSplineSet
 Validated: 5
-Ligature2: "'liga' Standard Ligatures in Latin lookup 10 subtable" k s
-Ligature2: "'liga' Standard Ligatures in Latin lookup 7 subtable" k s
+MultipleSubs2: "Multiple Substitution lookup 6 subtable" k s.init
+Ligature2: "'calt' Contextual Alternates in Latin lookup 4 subtable" k s
 EndChar
 
 StartChar: rj
-Encoding: 81 -1 55
-Width: 1462
+Encoding: 65552 -1 55
+Width: 877
 Flags: W
 HStem: 0 292<0 585> 877 293<0 292 585 877> 1442 20G<292 585> 1462 293<585 877> 1755 293<877 1170>
 VStem: 292 293<585 877 1170 1462> 585 292<1462 1755> 877 293<585 877 1755 2048>
@@ -2561,13 +2573,13 @@ SplineSet
  877 1755 l 1
 EndSplineSet
 Validated: 5
-Ligature2: "'liga' Standard Ligatures in Latin lookup 10 subtable" r j
-Ligature2: "'liga' Standard Ligatures in Latin lookup 7 subtable" r j
+MultipleSubs2: "Multiple Substitution lookup 13 subtable" r j.init
+Ligature2: "'calt' Contextual Alternates in Latin lookup 4 subtable" r j
 EndChar
 
 StartChar: g.init
-Encoding: 83 -1 56
-Width: 877
+Encoding: 65553 -1 56
+Width: 880
 Flags: W
 HStem: 0 292<0 292> 292 293<292 585> 585 292<585 877> 877 293<877 1170> 1170 292<585 877> 2028 20G<0 292> 2028 20G<0 292>
 VStem: 0 292<0 292 877 1462 1755 2048> 292 293<292 585> 585 292<585 877 1170 1462> 877 293<877 1170>
@@ -2613,8 +2625,8 @@ Validated: 5
 EndChar
 
 StartChar: nt
-Encoding: 82 -1 57
-Width: 1462
+Encoding: 65554 -1 57
+Width: 877
 Flags: W
 HStem: 0 21G<877 1170> 0 21G<877 1170> 877 293<0 292> 1170 292<292 585> 1755 293<0 585>
 VStem: 0 292<877 1170> 292 293<1170 1462> 877 293<0 1462>
@@ -2642,7 +2654,8 @@ SplineSet
  877 0 l 1x9d
 EndSplineSet
 Validated: 5
-Ligature2: "'liga' Standard Ligatures in Latin lookup 10 subtable" n t
+MultipleSubs2: "Multiple Substitution lookup 9 subtable" n t.init
+Ligature2: "'calt' Contextual Alternates in Latin lookup 4 subtable" n t
 EndChar
 EndChars
 EndSplineFont

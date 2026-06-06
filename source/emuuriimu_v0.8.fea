@@ -1,0 +1,73 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+
+# 1. CLASSES
+@VOWELS = [a e i o u y adieresis odieresis aa aeae aee ee ia ii oo ua ui uo yy yoe uu ae oe]; 
+@CONSONANTS = [k g m p t s n r l j h v];
+@INITIALS = [k.init g.init m.init p.init t.init s.init n.init r.init l.init j.init h.init v.init];
+
+# Used for the C-C Syllable break (e.g., syök-syy)
+@FINALS_MIN = [k g m p t s n r l j h v sj lj rs mp rt ks nt rj];
+
+# 2. VOWEL LIGATURES
+feature liga {
+    sub adieresis adieresis by aeae;
+    sub adieresis e by aee;
+    sub y odieresis by yoe;
+    sub a a by aa;
+    sub e e by ee;
+    sub i i by ii;
+    sub o o by oo;
+    sub u u by uu;
+    sub y y by yy;
+    sub i a by ia;
+    sub u a by ua;
+    sub u i by ui;
+    sub u o by uo;
+    sub a e by ae;
+    sub o e by oe;
+} liga;
+
+# 3. CONTEXTUAL DYNAMICS
+feature calt {
+
+    # LOOKUP 1: SYLLABLE START IDENTIFICATION
+    # V-CV Rule (The Emuu Shield)
+    sub @VOWELS @CONSONANTS' @VOWELS by @INITIALS;
+    # Standard Initial Rule
+    sub @CONSONANTS' @VOWELS by @INITIALS;
+
+    # LOOKUP 2: CLUSTER FORMATION
+    sub s j by sj;
+    sub l j by lj;
+    sub r s by rs;
+    sub m p by mp;
+    sub r t by rt;
+    sub k s by ks;
+    sub n t by nt;
+    sub r j by rj;
+
+    # LOOKUP 3: THE SYLLABLE BREAKER (Decomposition)
+    # Re-breaks clusters if a vowel follows the second half
+    sub ks' @VOWELS by k s.init;
+    sub mp' @VOWELS by m p.init;
+    sub rt' @VOWELS by r t.init;
+    sub nt' @VOWELS by n t.init;
+    sub rs' @VOWELS by r s.init;
+    sub sj' @VOWELS by s j.init;
+    sub lj' @VOWELS by l j.init;
+    sub rj' @VOWELS by r j.init;
+
+} calt;
+
+# 4. SPACING (GPOS)
+feature kern {
+    # GAP TYPE A: Vowel to Initial Consonant
+    # (Based on your 293 value for a tiny gap over the 290 overlap)
+    pos @VOWELS @INITIALS 586;
+
+    # GAP TYPE B: Final Consonant to Initial Consonant (e.g., syök-syy)
+    # Since Final Consonants have RSB -293, we add 60 to get a small gap.
+    pos @FINALS_MIN @INITIALS 586;
+
+} kern;
